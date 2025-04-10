@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&display=swap');
+
+/* Global Css Starts Here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Oswald", sans-serif;
+    color: white;
+    
+}
+
+/* Navbar Css Starts Here */
+
+.nav.section{
+    position: relative;
+}
+
+.nav-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    color: black;
+    position: absolute;
+    
+
+
+}
+
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-image: url("https://images.pexels.com/photos/31499021/pexels-photo-31499021/free-photo-of-winding-mountain-road-in-dagestan-russia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    top: -55px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+
+}
+
+.left-banner-content{
+
+    row-gap: 4px;
+}
+
+.item{
+
+    text-decoration: none;
+}
+
+.mid-banner-content{
+
+row-gap: 20px;
+width: 950;
+height: 310;
+top: 287px;
+left: 500px;
+gap: 32px;
+
+
+}
+
+.Slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.slider-img{
+    height: 20vh;
+}
+
+.article-section-1{
+
+    display: flex;
+    padding: 100px;
+    column-gap: 40px;
+    width: 1462;
+    height: 720;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+
+}
+
+.left-article-1{
+text-align: left;
+width: 632;
+height: 439;
+top: 141px;
+gap: 27px;
+font-family: Gilroy;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0px;   
+position: relative;
+
+}
+
+.left-article-1::before{
+    content: "01";
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    opacity: 0.2;
+    font-size: 120px;
+    
+}
+
+.first-line-1{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+
+}
+
+.line-img{
+    width: 72;
+    height: 2;
+    top: 10px;
+    angle: -0 deg;
+
+}
+
+.second-line{
+    text-align: left;
+}
+
+
+.article-section-2{
+        display: flex;
+        padding: 100px;
+        column-gap: 40px;
+        width: 1462;
+        height: 720;
+        background-color:  rgb(0, 0, 0);
+        align-items: center;
+        
+    
+}
+
+.right-article-2{
+text-align: left;
+width: 632;
+height: 439;
+top: 141px;
+gap: 27px;
+font-family: Gilroy;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0px;   
+position: relative;
+}
+
+.right-article-2::before{
+    content: "02";
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    opacity: 0.2;
+    font-size: 120px;
+}
+
+.first-line-2{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+
+
+}
+
+.line-img{
+    width: 72;
+    height: 2;
+    top: 10px;
+    angle: -0 deg;
+
+}
+
+.article-section-3{
+    display: flex;
+    padding: 100px;
+    column-gap: 40px;
+    width: 1462;
+    height: 720;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+
+}
+
+.left-article-3{
+    text-align: left;
+    width: 632;
+    height: 439;
+    top: 141px;
+    gap: 27px;
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;   
+    position: relative;
+    
+}
+
+.left-article-3::before{
+    content: "03";
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    opacity: 0.2;
+    font-size: 120px;
+}
+
+.first-line-3{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.line-img{
+    width: 72;
+    height: 2;
+    top: 10px;
+    angle: -0 deg;
+
+}
+
+.footer-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color:  rgb(0, 0, 0);
+    }
+
+.footer-logo{
+
+       width: 108;
+       height: 38;
+       top: 2760px;
+
+
+}
+
+.footer-logo-img{
+    font-family: Chronicle Display;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    text-transform: capitalize;
+    
+}
+
+.footer-text{
+    width: 303;
+    height: 64;
+    top: 2822px;
+
+}
+
+.footer-para{
+    font-family: Gilroy;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+letter-spacing: 0px;
+
+}
+
+.copy-right-text{
+    width: 350;
+height: 32;
+top: 3008px;
+left: 6.06px;
+opacity: 0.5;
+
+}
+
+.copy-right-para{
+    font-family: Gilroy;
+font-weight: 500;
+font-size: 14px;
+line-height: 32px;
+letter-spacing: 0px;
+}
+
+.footer-text{
+width: 303;
+height: 64;
+top: 2822px;
+
+}
+
+.footer-mid-links{
+    list-style: none;
+}
+
+.right-footer{
+    row-gap: 20px;
+}
+
+.footer-right-links{
+    list-style: none;
+}
+
+.list-item{
+    text-decoration: none;
+    list-style: none;
+}
+
+.Frame-1 li a{
+    text-decoration: none;
+    list-style: none;
+}
