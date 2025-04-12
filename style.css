@@ -2,89 +2,89 @@
 
 /* Global Css Starts Here */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
 
     font-family: "Oswald", sans-serif;
     color: white;
-    
+
 }
 
 /* Navbar Css Starts Here */
 
-.nav.section{
-    position: relative;
+.nav.section {
+    /* //position: relative; */
+
 }
 
-.nav-container{
-
+.nav-container {
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     color: black;
     position: absolute;
-    
-
-
+    z-index: 100;
+    width: 100%;
 }
 
 
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     background-image: url("https://images.pexels.com/photos/31499021/pexels-photo-31499021/free-photo-of-winding-mountain-road-in-dagestan-russia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    position: relative;
     background-repeat: no-repeat;
-    position: absolute;
     background-position: center;
-    top: -55px;
-    height: 100%;
+    /* top: -55px; */
+    height: 100vh;
     width: 100%;
     background-size: cover;
 
-
+    
 }
 
-.left-banner-content{
+.left-banner-content {
 
     row-gap: 4px;
 }
 
-.item{
+.item {
 
     text-decoration: none;
 }
 
-.mid-banner-content{
+.mid-banner-content {
 
-row-gap: 20px;
-width: 950;
-height: 310;
-top: 287px;
-left: 500px;
-gap: 32px;
+    row-gap: 20px;
+    width: 950;
+    height: 310;
+    top: 287px;
+    left: 500px;
+    gap: 32px;
 
 
 }
 
-.Slider{
+.Slider {
     display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 10px;
 }
 
-.slider-img{
+.slider-img {
     height: 20vh;
 }
 
-.article-section-1{
+.article-section-1 {
 
     display: flex;
     padding: 100px;
@@ -96,22 +96,22 @@ gap: 32px;
 
 }
 
-.left-article-1{
-text-align: left;
-width: 632;
-height: 439;
-top: 141px;
-gap: 27px;
-font-family: Gilroy;
-font-weight: 700;
-font-size: 18px;
-line-height: 32px;
-letter-spacing: 0px;   
-position: relative;
+.left-article-1 {
+    text-align: left;
+    width: 632;
+    height: 439;
+    top: 141px;
+    gap: 27px;
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    position: relative;
 
 }
 
-.left-article-1::before{
+.left-article-1::before {
     content: "01";
     width: 300px;
     height: 300px;
@@ -121,17 +121,17 @@ position: relative;
     top: -15px;
     opacity: 0.2;
     font-size: 120px;
-    
+
 }
 
-.first-line-1{
+.first-line-1 {
     display: flex;
     column-gap: 20px;
     align-items: center;
 
 }
 
-.line-img{
+.line-img {
     width: 72;
     height: 2;
     top: 10px;
@@ -139,38 +139,38 @@ position: relative;
 
 }
 
-.second-line{
+.second-line {
     text-align: left;
 }
 
 
-.article-section-2{
-        display: flex;
-        padding: 100px;
-        column-gap: 40px;
-        width: 1462;
-        height: 720;
-        background-color:  rgb(0, 0, 0);
-        align-items: center;
-        
-    
+.article-section-2 {
+    display: flex;
+    padding: 100px;
+    column-gap: 40px;
+    width: 1462;
+    height: 720;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+
+
 }
 
-.right-article-2{
-text-align: left;
-width: 632;
-height: 439;
-top: 141px;
-gap: 27px;
-font-family: Gilroy;
-font-weight: 700;
-font-size: 18px;
-line-height: 32px;
-letter-spacing: 0px;   
-position: relative;
+.right-article-2 {
+    text-align: left;
+    width: 632;
+    height: 439;
+    top: 141px;
+    gap: 27px;
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    position: relative;
 }
 
-.right-article-2::before{
+.right-article-2::before {
     content: "02";
     width: 300px;
     height: 300px;
@@ -182,7 +182,7 @@ position: relative;
     font-size: 120px;
 }
 
-.first-line-2{
+.first-line-2 {
     display: flex;
     column-gap: 20px;
     align-items: center;
@@ -190,7 +190,7 @@ position: relative;
 
 }
 
-.line-img{
+.line-img {
     width: 72;
     height: 2;
     top: 10px;
@@ -198,7 +198,7 @@ position: relative;
 
 }
 
-.article-section-3{
+.article-section-3 {
     display: flex;
     padding: 100px;
     column-gap: 40px;
@@ -209,7 +209,7 @@ position: relative;
 
 }
 
-.left-article-3{
+.left-article-3 {
     text-align: left;
     width: 632;
     height: 439;
@@ -219,12 +219,12 @@ position: relative;
     font-weight: 700;
     font-size: 18px;
     line-height: 32px;
-    letter-spacing: 0px;   
+    letter-spacing: 0px;
     position: relative;
-    
+
 }
 
-.left-article-3::before{
+.left-article-3::before {
     content: "03";
     width: 300px;
     height: 300px;
@@ -236,13 +236,13 @@ position: relative;
     font-size: 120px;
 }
 
-.first-line-3{
+.first-line-3 {
     display: flex;
     column-gap: 20px;
     align-items: center;
 }
 
-.line-img{
+.line-img {
     width: 72;
     height: 2;
     top: 10px;
@@ -250,91 +250,91 @@ position: relative;
 
 }
 
-.footer-section{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-        background-color:  rgb(0, 0, 0);
-    }
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
 
-.footer-logo{
+.footer-logo {
 
-       width: 108;
-       height: 38;
-       top: 2760px;
+    width: 108;
+    height: 38;
+    top: 2760px;
 
 
 }
 
-.footer-logo-img{
+.footer-logo-img {
     font-family: Chronicle Display;
     font-weight: 700;
     font-size: 28px;
     line-height: 100%;
     letter-spacing: 1%;
     text-transform: capitalize;
-    
+
 }
 
-.footer-text{
+.footer-text {
     width: 303;
     height: 64;
     top: 2822px;
 
 }
 
-.footer-para{
+.footer-para {
     font-family: Gilroy;
-font-weight: 700;
-font-size: 16px;
-line-height: 32px;
-letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
 
 }
 
-.copy-right-text{
+.copy-right-text {
     width: 350;
-height: 32;
-top: 3008px;
-left: 6.06px;
-opacity: 0.5;
+    height: 32;
+    top: 3008px;
+    left: 6.06px;
+    opacity: 0.5;
 
 }
 
-.copy-right-para{
+.copy-right-para {
     font-family: Gilroy;
-font-weight: 500;
-font-size: 14px;
-line-height: 32px;
-letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0px;
 }
 
-.footer-text{
-width: 303;
-height: 64;
-top: 2822px;
+.footer-text {
+    width: 303;
+    height: 64;
+    top: 2822px;
 
 }
 
-.footer-mid-links{
+.footer-mid-links {
     list-style: none;
 }
 
-.right-footer{
+.right-footer {
     row-gap: 20px;
 }
 
-.footer-right-links{
+.footer-right-links {
     list-style: none;
 }
 
-.list-item{
+.list-item {
     text-decoration: none;
     list-style: none;
 }
 
-.Frame-1 li a{
+.Frame-1 li a {
     text-decoration: none;
     list-style: none;
 }
