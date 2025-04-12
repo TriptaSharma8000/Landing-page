@@ -12,6 +12,7 @@ body {
 
     font-family: "Oswald", sans-serif;
     color: white;
+    
 
 }
 
@@ -33,6 +34,23 @@ body {
     width: 100%;
 }
 
+
+
+.nav-link{
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    color: white;
+}
+
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    color: white;
+    font-weight: bold;
+}
 
 .banner-container {
     display: flex;
@@ -56,10 +74,6 @@ body {
     row-gap: 4px;
 }
 
-.item {
-
-    text-decoration: none;
-}
 
 .mid-banner-content {
 
@@ -69,8 +83,10 @@ body {
     top: 287px;
     left: 500px;
     gap: 32px;
-
-
+    text-decoration: none;
+    color: white;
+    font-size: 38px;
+    
 }
 
 .Slider {
@@ -80,8 +96,11 @@ body {
     column-gap: 10px;
 }
 
-.slider-img {
-    height: 20vh;
+.Scroll-box{
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid white;
+    padding: 1 rem;
 }
 
 .article-section-1 {
